@@ -1,3 +1,4 @@
+/*  Basic Color */
 :root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
@@ -70,6 +71,7 @@ p {
 }
 
 /* Links */
+
 a {
   text-decoration: none;
 }
@@ -130,7 +132,9 @@ a {
     font-size: 1.2rem;
   }
 }
+
 /* Lists */
+
 .list {
   list-style: none;
   padding-left: 0;
@@ -157,7 +161,9 @@ a {
     padding-left: 0;
   }
 }
+
 /* Icons */
+
 .icon {
   width: 40px;
   height: 40px;
@@ -176,7 +182,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 /* Buttons */
+
 .btn {
   border-radius: 40px;
   border: 0;
@@ -240,6 +248,7 @@ a {
 }
 
 /* Inputs */
+
 .input {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
@@ -275,6 +284,7 @@ a {
   }
 }
 /* Cards */
+
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
@@ -301,6 +311,7 @@ a {
 }
 
 /* Plans */
+
 .plan__name {
   color: #fff;
   margin: 0;
@@ -359,4 +370,21 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+/* Media */
+
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
